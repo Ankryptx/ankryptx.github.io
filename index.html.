@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ANKRYPT — AI, coding and developer tools.">
+  <title>ANKRYPT | Build. Learn. Innovate.</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #0b1020;
+      color: #f4f7ff;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+    }
+    header, main, footer {
+      max-width: 960px;
+      margin: auto;
+      padding: 24px;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #28334d;
+    }
+    .logo { font-size: 24px; font-weight: bold; color: #70e1ff; }
+    .hero { padding-top: 90px; padding-bottom: 80px; }
+    .tag { color: #70e1ff; font-weight: bold; }
+    h1 { font-size: clamp(40px, 8vw, 68px); line-height: 1.1; }
+    .muted { color: #b6c1d9; }
+    .button {
+      display: inline-block;
+      padding: 12px 18px;
+      margin: 8px 8px 8px 0;
+      border-radius: 8px;
+      background: #70e1ff;
+      color: #0b1020;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .secondary { background: #202c46; color: white; }
+    .card {
+      background: #131c30;
+      border: 1px solid #28334d;
+      padding: 22px;
+      border-radius: 14px;
+      margin: 16px 0;
+    }
+    a { color: #70e1ff; }
+    footer { border-top: 1px solid #28334d; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">ANKRYPT</div>
+    <span class="muted">Build. Learn. Innovate.</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="tag">AI · CODING · DEVELOPER TOOLS</div>
+      <h1>Turning ideas into technology.</h1>
+      <p class="muted">
+        ANKRYPT is an early-stage technology project exploring
+        practical software, AI and developer tools.
+      </p>
+      <a class="button"
+         href="https://github.com/Ankryptx">
+        Explore GitHub
+      </a>
+      <a class="button secondary"
+         href="https://github.com/Ankryptx/student-grade-analyzer">
+        View My Project
+      </a>
+    </section>
+
+    <section>
+      <h2>What I'm building</h2>
+      <div class="card">
+        <h3>AI and Developer Tools</h3>
+        <p class="muted">
+          Exploring tools that help developers understand code,
+          learn programming and improve their workflow.
+          These capabilities are planned, not yet launched.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Student Grade Analyzer</h3>
+        <p class="muted">
+          A Python project using scikit-learn to explore
+          student grade analysis.
+        </p>
+        <a href="https://github.com/Ankryptx/student-grade-analyzer">
+          Explore repository →
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>About ANKRYPT</h2>
+      <p class="muted">
+        ANKRYPT is currently at the idea and development stage.
+        I'm building my portfolio, learning new technologies
+        and working toward practical projects.
+      </p>
+    </section>
+  </main>
+
+  <footer class="muted">
+    © 2026 ANKRYPT · Built with GitHub Pages
+  </footer>
+</body>
+</html>
